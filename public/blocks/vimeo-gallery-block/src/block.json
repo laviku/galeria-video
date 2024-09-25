@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/vimeo-gallery-block",
+	"version": "0.1.0",
+	"title": "Vimeo Gallery Block",
+	"category": "widgets",
+	"icon": "dashicons-playlist-video",
+	"description": "Galeria de videos de vimeo",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "vimeo-gallery-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
